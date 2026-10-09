@@ -1,0 +1,144 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:fb36f217-1561-5cf6-88e4-b9b78fdcc023",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T11:32:22Z",
+    "component": {
+      "type": "application",
+      "name": "XBMC",
+      "version": "e99bb6a9192c",
+      "bom-ref": "pkg:generic/anticloud/XBMC@e99bb6a9192c",
+      "purl": "pkg:generic/anticloud/XBMC@e99bb6a9192c",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "e99bb6a9192c26a8575fb2d16a7247bf49f8fb04"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/XBMC/xbmc"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "PkgConfig",
+      "version": "unspecified",
+      "purl": "pkg:generic/PkgConfig",
+      "bom-ref": "native/PkgConfig@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Threads",
+      "version": "unspecified",
+      "purl": "pkg:generic/Threads",
+      "bom-ref": "native/Threads@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Shairplay",
+      "version": "unspecified",
+      "purl": "pkg:generic/Shairplay",
+      "bom-ref": "native/Shairplay@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Gtest",
+      "version": "unspecified",
+      "purl": "pkg:generic/Gtest",
+      "bom-ref": "native/Gtest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Doxygen",
+      "version": "unspecified",
+      "purl": "pkg:generic/Doxygen",
+      "bom-ref": "native/Doxygen@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "SWIG",
+      "version": "unspecified",
+      "purl": "pkg:generic/SWIG",
+      "bom-ref": "native/SWIG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Bluetooth",
+      "version": "unspecified",
+      "purl": "pkg:generic/Bluetooth",
+      "bom-ref": "native/Bluetooth@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "CWiid",
+      "version": "unspecified",
+      "purl": "pkg:generic/CWiid",
+      "bom-ref": "native/CWiid@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GLU",
+      "version": "unspecified",
+      "purl": "pkg:generic/GLU",
+      "bom-ref": "native/GLU@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Lzo2",
+      "version": "unspecified",
+      "purl": "pkg:generic/Lzo2",
+      "bom-ref": "native/Lzo2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PNG",
+      "version": "unspecified",
+      "purl": "pkg:generic/PNG",
+      "bom-ref": "native/PNG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GIF",
+      "version": "unspecified",
+      "purl": "pkg:generic/GIF",
+      "bom-ref": "native/GIF@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "JPEG",
+      "version": "unspecified",
+      "purl": "pkg:generic/JPEG",
+      "bom-ref": "native/JPEG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Meson",
+      "version": "unspecified",
+      "purl": "pkg:generic/Meson",
+      "bom-ref": "native/Meson@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Ninja",
+      "version": "unspecified",
+      "purl": "pkg:generic/Ninja",
+      "bom-ref": "native/Ninja@unspecified"
+    }
+  ]
+}
